@@ -32,7 +32,7 @@ function renderItem() {
   const htmlString =  `
   <div class="itemFromCollection">
     <div class="imageHolder">
-      <img src="https://media.datacratie.cc/pictograms/${el.gentImageURI}" />
+      <img src="https://api.collectie.gent/iiif/imageiiif/3/${el.gentImageURI}/full/^1000,/0/default.jpg" />
     </div>  
     <div class="colors">
       ${colorItems}
