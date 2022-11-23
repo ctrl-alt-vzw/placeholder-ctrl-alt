@@ -25,7 +25,7 @@ body {
 }
 .itemFromCollection {
   max-width: 500px;
-  width:  400px;
+  width:  100%;
   float:  left;
   display: block;
   padding:  10px;
@@ -213,8 +213,18 @@ h4 {
 .row {
   margin-bottom: 30px;
 }
+.spacer {
+  height: 50px;
+}
+.half {
+  margin: 5px;
+  width: calc(50% - 10px);
+}
 @media screen and (max-width: 700px) {
   .aright {
     text-align: left;
+  }
+  .spacer {
+    height: 20px;
   }
 }

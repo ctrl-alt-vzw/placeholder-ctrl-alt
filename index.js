@@ -16,7 +16,7 @@ function startFetching() {
           startFetching();
         }
         renderItem()
-      }, 2000)
+      }, 4000)
     })
 
 }
@@ -37,7 +37,7 @@ function renderItem() {
     <div class="colors">
       ${colorItems}
     </div>
-    <h1>AI: ${el.annotation}</h1>
+    <h1><mark>${el.annotation}</mark></h1>
     <p>${el.originalAnnotation}</p>
     
   </div> `

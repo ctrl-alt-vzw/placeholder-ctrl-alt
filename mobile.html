@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+  <title>CTRL ALT</title>
+
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link href="css/skeleton.css" rel="stylesheet" />
+  <link href="css/stylesheet.css" rel="stylesheet" />
+  <link href="css/viz.css" rel="stylesheet" />
+
+
+  <meta name="viewport" content="width=device-width" />
+  <link rel="shortcut icon" href="images/icon.png">
+
+  <meta charset="UTF-8">
+  <meta name="description" content="CTRL ALT - Research and development of interactive experiences and installations">
+  <meta name="keywords"
+    content="projection, interaction, data, datavisualisation, expert">
+  <meta name="author" content="Jan Everaert">
+  <meta name="author" content="Joni De Borger">
+
+</head>
+
+<body>
+  <div id="page" class="container">
+    <div class="row">
+      <div class="twelve columns spacer">
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <div class="item" id="renderTarget">
+          
+
+        </div>
+        <div class="row">
+          <a class="button half" id="dap">Disapprove</a>
+          <a class="button half u-pull-right"  id="ap">Approve</a>
+        </div>
+      </div>
+      <div class="six columns">
+        <div id="visualContainer">
+        <!-- <h1>Mechanical Turker</h1> -->
+          <h4>Work done: <span id="percentage"></span></h4>
+              <canvas id="canvas"> </canvas>
+<!-- 
+          <table id="last-items">
+              <tr>
+                  <th>ITEM</th>
+                  <th>COLLECTION</th>
+                  <th>TIMESTAMP</th>
+                  <th>WORKER</th>
+                  <th>VERIFIED</th>
+              <tr>
+          </table> -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
+
+        Welcome, mechanical worker, <br />
+        <br />
+        Please approve(<mark>Y</mark>) or disapprove(<mark>N</mark>) the following AI annotations(<mark>marked in yellow</mark> ). <br />
+        You can pause on an image by <mark>pressing the spacebar</mark>. <br />
+        <br />
+        Please note that the description does not need to be accurate, but it should be satisfying.
+      </div>
+
+      <div class="six columns">
+
+
+      </div>
+    </div>
+    <div class="row footer">      
+      <div class="six columns">
+
+        <div class="holder">
+          <a name="contact" id="contact"></a>
+          <h3>Get in touch</h3>
+        </div>
+
+        <p>
+          Phone: (+32) 493 71 23 66<br />
+          Email: <a href="mailto:info@ctrlalt.be">info@ctrlalt.be</a><br />
+        </p>
+      </div>
+      <div class="six columns">
+        <div class="logoContainer">
+          <img class="u-pull-right" src="images/logos/200921_logo-district09-rgb-grey@2x.png" />
+          <img class="u-pull-right" src="images/logos/flag_yellow_high.jpg" />
+          <img class="u-pull-right" src="images/logos/UIA-logo.png" />
+        </div>
+      </div>
+    </div>      
+
+  </div>
+
+</body>
+
+<script src="scripts/mobile.js" type="module"></script>
+
+
+</html>
